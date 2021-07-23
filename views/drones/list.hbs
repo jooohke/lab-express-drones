@@ -1,18 +1,28 @@
 <h2>Available drones</h2>
+
 <div class="container">
   <div class="row">
+
     {{#each drones}}
+
       <div class="col">
         <div class="card" style="width: 18rem;">
           <div class="card-body">
             <h5 class="card-title">{{this.name}}</h5>
-            <p class="card-text">
-              <div> propellers : {{this.propellers}}</div>
-              <div> Speed :{{this.maxSpeed}}</div></p>
+            <div class="card-text">
+              <p><span>Propellers<span></p>
+                <p>{{this.propellers}}</p>
+              <p><span>Maximum Speed</span></p>
+                <p>{{this.maxSpeed}}</p>
+                </div>
             <a class="card-link" href="/drones/{{this._id}}/edit">edit</a>
             <a class="card-link" href="/drones/{{this._id}}/delete">delete</a>
           </div>
         </div>
       </div>
+
     {{/each}}</div>
+
+
+    <a href="/drones/create">ADD A MODEL</a>
 </div>

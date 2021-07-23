@@ -1,8 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 body {
   padding: 50px;
-  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
-  color: #00b7ff;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.card {
+  border: none;
+  background-color: #00b7ff;
+}
+
+h5 {
+  text-align: center;
+}
+
+.card a {
+  text-align: center;
+}
+
+.card-text span {
+  font-weight: bold;
 }

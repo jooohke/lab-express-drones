@@ -12,10 +12,27 @@ a {
 
 h1 {
   text-align: center;
+  color: white;
 }
 
 h2 {
   text-align: center;
+}
+
+#home-page {
+  display: flex;
+  height: 100%;
+  background-image: url("https://media.giphy.com/media/YWUvOugDNUBS0MTqkv/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#home-page img {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 2em;
 }
 
 .card {
@@ -33,4 +50,32 @@ h5 {
 
 .card-text span {
   font-weight: bold;
+}
+
+/* NAV BAR */
+
+nav {
+  background-color: white;
+  color: black;
+}
+
+/* CREATE FORM */
+
+#create-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#create-form .form-question {
+  margin: 1em 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#drones-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
